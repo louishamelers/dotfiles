@@ -1,0 +1,9 @@
+[user]
+	name = Louis Hamelers
+	email = 25366619+louishamelers@users.noreply.github.com
+
+[core]
+	editor = nano
+
+[core]
+	editor = code --wait

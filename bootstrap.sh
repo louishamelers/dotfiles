@@ -34,6 +34,7 @@ if [[ ! -e $BACKUPDIR ]]; then
 fi
 
 dotfiles=$(ls -1 -A $DOTFILEDIR 2> /dev/null)
+echo $dotfiles
 
 if [[ $dotfiles ]]; then
   echo "Symlinking dotfiles..."
